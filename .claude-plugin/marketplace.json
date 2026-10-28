@@ -1,0 +1,19 @@
+{
+  "name": "minga-replica",
+  "owner": {
+    "name": "dmminga1983",
+    "url": "https://github.com/dmminga1983"
+  },
+  "metadata": {
+    "description": "minga-replica: rebuild an app clean-room style and launch it as your own."
+  },
+  "plugins": [
+    {
+      "name": "minga-replica",
+      "source": "./",
+      "description": "Recon, architecture, design, build, backend, tests, parity, reviews, rebrand, launch and deploy for an app clone, with region profiles for Russia and global.",
+      "category": "development",
+      "tags": ["app-clone", "saas", "rustore", "app-store", "google-play"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "avoid": ["OriginalApp", "Original Company"],
+  "appstore": {
+    "name": "Slotwise: booking links",
+    "subtitle": "Flat price for small teams",
+    "promotional_text": "Share one link, let clients pick a time, get reminders by text. No per-seat pricing.",
+    "keywords": "booking,schedule,appointments,calendar,reminders,clients,meetings,team",
+    "description": "Share one link and let clients book a time that works for both of you...",
+    "whats_new": "Text reminders and a time zone check before every booking."
+  },
+  "googleplay": {
+    "title": "Slotwise: booking links",
+    "short_description": "Booking links with text reminders and one flat price for small teams.",
+    "full_description": "Share one link and let clients book a time that works for both of you..."
+  },
+  "rustore": {
+    "name": "Slotwise: онлайн-запись клиентов",
+    "short_description": "Ссылка для записи, напоминания по SMS и одна цена для небольшой команды.",
+    "full_description": "Отправьте клиенту одну ссылку, и он сам выберет удобное время..."
+  }
+}

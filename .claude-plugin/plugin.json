@@ -1,0 +1,14 @@
+{
+  "name": "minga-replica",
+  "displayName": "Minga · Replica",
+  "version": "1.0.0",
+  "description": "Eleven skills that rebuild any app clean-room style and make it yours, for Russia and the rest of the world: recon, architecture by region, design, build, backend, tests, parity, user reviews, rebrand, launch for App Store, Google Play and RuStore, and deploy.",
+  "author": {
+    "name": "dmminga1983",
+    "url": "https://github.com/dmminga1983"
+  },
+  "homepage": "https://github.com/dmminga1983/minga-replica",
+  "repository": "https://github.com/dmminga1983/minga-replica",
+  "license": "MIT",
+  "keywords": ["app-clone", "saas", "indie-hacker", "rustore", "app-store", "google-play", "russia", "minga"]
+}

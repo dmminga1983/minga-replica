@@ -1,0 +1,48 @@
+{
+ "version": 1,
+ "checked": "2026-10",
+ "note": "Store listing limits used by listing.py. If a store's console says otherwise, the console is right: edit this file.",
+ "stores": {
+  "appstore": {
+   "name": "App Store",
+   "fields": {
+    "name": 30,
+    "subtitle": 30,
+    "promotional_text": 170,
+    "keywords": 100,
+    "description": 4000,
+    "whats_new": 4000
+   },
+   "rules": [
+    "Guideline 4.1 Copycats",
+    "Guideline 4.3 Spam",
+    "Guideline 5.2 Intellectual property"
+   ]
+  },
+  "googleplay": {
+   "name": "Google Play",
+   "fields": {
+    "title": 30,
+    "short_description": 80,
+    "full_description": 4000
+   },
+   "rules": [
+    "Impersonation policy",
+    "Intellectual property policy",
+    "Metadata policy: no ranking claims, no misleading emoji or caps in the title"
+   ]
+  },
+  "rustore": {
+   "name": "RuStore",
+   "fields": {
+    "name": 50,
+    "short_description": 80,
+    "full_description": 4000
+   },
+   "rules": [
+    "Name must be unique",
+    "Moderation checks for copied names and branding"
+   ]
+  }
+ }
+}

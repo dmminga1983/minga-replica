@@ -1,0 +1,196 @@
+{
+ "version": 1,
+ "checked": "2026-10",
+ "note": "Region profiles for minga-replica. Facts about laws, stores and providers change: every entry carries the date it was checked. Before launch, re-check the ones marked verify with the official source, and talk to a lawyer when money is at stake. This is not legal advice.",
+ "regions": {
+  "ru": {
+   "name": "Russia",
+   "web": "Next.js + TypeScript, or the user's own stack",
+   "database": [
+    "PostgreSQL on Yandex Cloud (Managed PostgreSQL)",
+    "Selectel",
+    "VK Cloud",
+    "Timeweb Cloud"
+   ],
+   "hosting": [
+    "Yandex Cloud",
+    "Selectel",
+    "VK Cloud",
+    "Timeweb Cloud"
+   ],
+   "auth": [
+    "VK ID",
+    "Yandex ID",
+    "Sber ID",
+    "phone number with SMS code",
+    "email with a magic link"
+   ],
+   "payments": [
+    "YooKassa",
+    "CloudPayments",
+    "T-Kassa (T-Bank)",
+    "Robokassa"
+   ],
+   "receipts": "Online payments to individuals need a fiscal receipt under 54-FZ. Use the provider's receipt service (for example YooKassa receipts) or a connected online cash register. Subscriptions: a receipt for every charge.",
+   "email": [
+    "Unisender Go",
+    "Yandex Cloud Postbox"
+   ],
+   "analytics": [
+    "Yandex Metrica"
+   ],
+   "files": [
+    "Yandex Object Storage",
+    "Selectel S3"
+   ],
+   "stores": [
+    "rustore",
+    "appstore",
+    "googleplay"
+   ],
+   "store_notes": {
+    "googleplay": "Since 26 December 2024 Google Play does not pay out to developers with a Russian bank account and does not process purchases or subscriptions for them. Free apps can still be published. Paid features need another channel (RuStore, the web). verify",
+    "appstore": "Check App Store Connect for current availability and payouts for your developer account and the Russian storefront before planning paid features there. verify",
+    "rustore": "RuStore supports payments and subscriptions through its own SDK. Name up to 50 characters, short description up to 80, full description up to 4,000."
+   },
+   "law": [
+    {
+     "id": "152-fz-localisation",
+     "rule": "Personal data of Russian citizens is recorded, systematised, accumulated and stored in databases located in Russia. Since 1 July 2025 doing this in foreign databases is prohibited outright, including at the moment of collection. Foreign form builders, CRMs, analytics or email tools that store such data abroad are a problem.",
+     "checked": "2026-10"
+    },
+    {
+     "id": "152-fz-operator",
+     "rule": "Notify Roskomnadzor that you process personal data before you start, publish a personal data processing policy, and collect consent where the law requires it. Cross-border transfer needs its own notification.",
+     "checked": "2026-10"
+    },
+    {
+     "id": "54-fz",
+     "rule": "Every online payment from an individual produces a fiscal receipt.",
+     "checked": "2026-10"
+    },
+    {
+     "id": "consumer",
+     "rule": "Consumer protection law applies to sales to individuals: clear price, a public offer, a working way to cancel and get a refund where due.",
+     "checked": "2026-10"
+    },
+    {
+     "id": "ads",
+     "rule": "Online advertising in Russia must be labelled and registered (erid token) through an operator of advertising data.",
+     "checked": "2026-10"
+    }
+   ],
+   "trademark": [
+    {
+     "check": "Rospatent / FIPS open registers",
+     "where": "fips.ru, open registers: trademarks and applications, Nice classes 9 and 42 for software"
+    },
+    {
+     "check": "WIPO Global Brand Database",
+     "where": "branddb.wipo.int"
+    }
+   ],
+   "reviews": [
+    "RuStore",
+    "App Store (Russian storefront)",
+    "Google Play",
+    "Otzovik",
+    "Irecommend",
+    "VC.ru and Habr comments",
+    "Telegram channels and chats",
+    "Yandex Maps and 2GIS for local services"
+   ]
+  },
+  "global": {
+   "name": "US, EU and the rest of the world",
+   "web": "Next.js + TypeScript, or the user's own stack",
+   "database": [
+    "Postgres on Supabase",
+    "Neon"
+   ],
+   "hosting": [
+    "Vercel",
+    "Netlify",
+    "Fly.io",
+    "Render"
+   ],
+   "auth": [
+    "Supabase Auth",
+    "Auth.js",
+    "Clerk",
+    "Sign in with Apple and Google"
+   ],
+   "payments": [
+    "Stripe Checkout and Billing",
+    "Paddle",
+    "Lemon Squeezy"
+   ],
+   "receipts": "Stripe, Paddle and Lemon Squeezy send receipts. Paddle and Lemon Squeezy act as merchant of record and handle sales tax and VAT; with Stripe you handle tax yourself (Stripe Tax helps).",
+   "email": [
+    "Resend",
+    "Postmark",
+    "Amazon SES"
+   ],
+   "analytics": [
+    "Plausible",
+    "PostHog"
+   ],
+   "files": [
+    "Supabase Storage",
+    "Cloudflare R2",
+    "Amazon S3"
+   ],
+   "stores": [
+    "appstore",
+    "googleplay"
+   ],
+   "store_notes": {
+    "appstore": "Guideline 4.1 rejects copycats; 4.8: an app that offers third-party or social login must also offer an equivalent privacy-focused login such as Sign in with Apple; 5.1.1(v): apps with account creation must let users delete the account in the app.",
+    "googleplay": "The impersonation and intellectual property policies reject apps that copy another app's name, icon or branding."
+   },
+   "law": [
+    {
+     "id": "gdpr",
+     "rule": "EU users: lawful basis, privacy policy listing every processor, data processing agreements, deletion on request, cookie consent for non-essential cookies.",
+     "checked": "2026-10"
+    },
+    {
+     "id": "us-state-privacy",
+     "rule": "US: a privacy policy, state privacy laws such as California's (CCPA/CPRA), clear auto-renewal and cancellation terms for subscriptions.",
+     "checked": "2026-10"
+    },
+    {
+     "id": "fake-reviews",
+     "rule": "No fake reviews or testimonials: the FTC rule of 2024 in the US, the consumer laws of the EU.",
+     "checked": "2026-10"
+    }
+   ],
+   "trademark": [
+    {
+     "check": "USPTO",
+     "where": "tmsearch.uspto.gov, classes 9 and 42"
+    },
+    {
+     "check": "EUIPO / TMview",
+     "where": "euipo.europa.eu eSearch, tmdn.org/tmview"
+    },
+    {
+     "check": "WIPO Global Brand Database",
+     "where": "branddb.wipo.int"
+    }
+   ],
+   "reviews": [
+    "App Store",
+    "Google Play",
+    "G2",
+    "Capterra",
+    "Trustpilot",
+    "Reddit",
+    "Hacker News",
+    "Product Hunt",
+    "the app's own feature-request board"
+   ]
+  }
+ },
+ "both": "Selling in Russia and abroad: keep Russian users' personal data in a database in Russia (a separate deployment or a separate region of the same app), take payments with a Russian provider for Russian cards and a global one for the rest, and publish to RuStore and the web for paid features in Russia while App Store and Google Play serve the rest. Decide this in replica-architect, not at deploy."
+}

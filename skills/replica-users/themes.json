@@ -1,0 +1,217 @@
+{
+ "version": 1,
+ "note": "Themes for reviews.py. Each theme has keywords in Russian and English, matched as word stems. Edit for the app's category: add the words its users actually use.",
+ "themes": [
+  {
+   "id": "price",
+   "name": "Price and billing",
+   "kw": [
+    "дорог",
+    "цена",
+    "цены",
+    "стоимост",
+    "подписк",
+    "списал",
+    "списани",
+    "деньги",
+    "верните",
+    "возврат",
+    "тариф",
+    "overpriced",
+    "expensive",
+    "price",
+    "pricing",
+    "billing",
+    "charged",
+    "refund",
+    "subscription",
+    "per seat",
+    "per-seat"
+   ]
+  },
+  {
+   "id": "cancel",
+   "name": "Hard to cancel",
+   "kw": [
+    "не могу отмен",
+    "отменить подписк",
+    "отписаться",
+    "не отключ",
+    "автопродлен",
+    "cancel",
+    "unsubscribe",
+    "auto-renew",
+    "autorenew"
+   ]
+  },
+  {
+   "id": "bugs",
+   "name": "Bugs and crashes",
+   "kw": [
+    "вылета",
+    "вылет",
+    "глюч",
+    "глюк",
+    "баг",
+    "зависа",
+    "не работает",
+    "ошибк",
+    "лаг",
+    "тормоз",
+    "crash",
+    "bug",
+    "freez",
+    "broken",
+    "doesn't work",
+    "does not work",
+    "glitch",
+    "laggy",
+    "slow"
+   ]
+  },
+  {
+   "id": "support",
+   "name": "Support",
+   "kw": [
+    "поддержк",
+    "не отвеча",
+    "игнор",
+    "support",
+    "no response",
+    "customer service",
+    "ignored"
+   ]
+  },
+  {
+   "id": "ads",
+   "name": "Ads",
+   "kw": [
+    "реклам",
+    "ads",
+    "advert",
+    "commercials"
+   ]
+  },
+  {
+   "id": "login",
+   "name": "Login and account",
+   "kw": [
+    "не могу войти",
+    "вход",
+    "авториз",
+    "пароль",
+    "аккаунт",
+    "sms",
+    "смс",
+    "код не приходит",
+    "login",
+    "log in",
+    "sign in",
+    "password",
+    "account",
+    "2fa",
+    "verification code"
+   ]
+  },
+  {
+   "id": "sync",
+   "name": "Sync and data loss",
+   "kw": [
+    "синхрон",
+    "пропал",
+    "потерял",
+    "удалил",
+    "данные исчез",
+    "sync",
+    "lost my",
+    "deleted my",
+    "data loss",
+    "disappeared"
+   ]
+  },
+  {
+   "id": "ux",
+   "name": "Confusing interface",
+   "kw": [
+    "неудобн",
+    "непонятн",
+    "запутан",
+    "сложно найти",
+    "интерфейс",
+    "дизайн",
+    "confusing",
+    "hard to find",
+    "cluttered",
+    "unintuitive",
+    "ui",
+    "ux"
+   ]
+  },
+  {
+   "id": "missing",
+   "name": "Missing feature",
+   "kw": [
+    "не хватает",
+    "нет функци",
+    "добавьте",
+    "хотелось бы",
+    "было бы",
+    "жаль что нет",
+    "нельзя",
+    "missing",
+    "please add",
+    "wish",
+    "would be great",
+    "no option",
+    "can't",
+    "cannot"
+   ]
+  },
+  {
+   "id": "privacy",
+   "name": "Privacy and permissions",
+   "kw": [
+    "доступ к",
+    "разрешени",
+    "слежк",
+    "персональн",
+    "privacy",
+    "permission",
+    "tracking",
+    "data sharing"
+   ]
+  },
+  {
+   "id": "performance",
+   "name": "Speed and battery",
+   "kw": [
+    "батаре",
+    "долго груз",
+    "медленн",
+    "жрёт",
+    "жрет",
+    "battery",
+    "drain",
+    "takes forever",
+    "loading"
+   ]
+  },
+  {
+   "id": "teams",
+   "name": "Not built for my group",
+   "kw": [
+    "для команды",
+    "для бизнеса",
+    "для семьи",
+    "для юрист",
+    "для врач",
+    "для учител",
+    "for teams",
+    "for business",
+    "for families",
+    "not for",
+    "useless for"
+   ]
+  }
+ ]
+}

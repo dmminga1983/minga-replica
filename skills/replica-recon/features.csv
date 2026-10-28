@@ -1,0 +1,6 @@
+feature,area,priority,original,clone,notes
+Sign up with email,account,must,yes,no,
+Core action of the app,core,must,yes,no,the one flow users pay for
+Settings page,account,should,yes,no,
+Export to CSV,data,could,yes,no,
+Partner marketplace,network,could,yes,skip,"their network, not a feature"
